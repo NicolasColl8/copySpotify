@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+}    
+.container {
+    width: 100%;
+}
+.header {
+    height: 90px;
+    background-color:black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+}
+header img{
+    height: 40%;
+    padding-left: 100px;
+    
+}
+.navbar li{
+    display: inline;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 40px;
+    cursor: pointer;
+}
+.navbar ul li a:hover {
+    color: #07d544;
+    cursor: pointer;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar{
+    padding-right:100px ;
+}
+main{
+    width: 100%;
+    height: 450px;
+    background-color:#1d75de; 
+    padding-left: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+main article h2{
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 50px;
+    letter-spacing: -0.06em;
+}
+main article p{
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+    color: white;
+    font-size: 23px;
+
+
+}
+
+.botton{
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+.empezar{
+    color: white;
+    border-radius: 50px;
+    background-color: black;
+    font-size: 13px;
+    padding: 15px 30px 15px 30px;
+    font-weight: bold;
+    
+}
+.verplanes{
+    color: white;
+    border-radius: 50px;
+    padding: 15px 30px 15px 30px;
+    font-size: 13px;
+    border: solid white 2px;
+    background-color: #1d75de;
+    font-weight: bold;
+}
+.legal p{
+    display: inline-block;
+    font-size: 10px;
+}
+.legal a{
+    font-size: 10px;
+    color: white;
+}
+.premium {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 65px;
+}
+.consejos ul {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding-left: 300px;
+    padding-right: 300px;
+    list-style:none;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.consejos ul li img{
+    height: 250px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.negrita {
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+
